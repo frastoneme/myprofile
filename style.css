@@ -1,0 +1,10 @@
+.gradient-text {
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.delay-4 {
+    transition-delay: 0.8s;
+}

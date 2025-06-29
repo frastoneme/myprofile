@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraston Eme Oigo | Software Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="text-xl font-bold gradient-text">Fraston Oigo</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">Skills</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                    <a href="#experience" class="text-gray-600 hover:text-blue-600 transition">Experience</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-600 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">About</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Skills</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Projects</a>
+                <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Experience</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <!-- Profile Image -->
+            <div class="md:w-1/3 flex justify-center">
+                <img src="assets/fraston.jpg" 
+                     alt="Fraston Eme Oigo" 
+                     class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-white shadow-lg fade-in">
+            </div>
+            
+            <!-- Text Content -->
+            <div class="md:w-2/3 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 fade-in delay-1">Fraston Eme Oigo</h1>
+                <h2 class="text-xl md:text-2xl text-blue-600 mb-6 fade-in delay-2">Software Developer | ICT Officer | Trainer</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto md:mx-0 mb-8 fade-in delay-3">Turning ideas into solutions through code and creativity.You dream we Build</p>
+                <div class="flex justify-center md:justify-start space-x-4 fade-in delay-4">
+                    <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Contact Me</a>
+                    <a href="#projects" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Developer working" 
+                         class="rounded-lg shadow-lg w-full h-auto">
+                </div>
+                <div class="md:w-1/2">
+                    <p class="text-lg text-gray-700 mb-6">
+                        I am Fraston Eme Oigo, a passionate ICT Officer and software developer based in Nakuru, Kenya. 
+                        I hold an IT degree and have over three years of experience in ICT support, 
+                        software development, and training.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6">
+                        I enjoy working with Python , JavaScript , Java, and databases (MySQL and PostgreSQL). 
+                        My approach combines technical expertise with creative problem-solving to deliver effective solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Hire Me</a>
+                        <a href="#" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition">
+                            <i class="fas fa-download mr-2"></i>Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Skill 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-blue-600 mb-3">
+                        <i class="fab fa-python text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">Python (Flask)</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-yellow-500 mb-3">
+                        <i class="fab fa-js text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">JavaScript (React)</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-yellow-500 h-2.5 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-red-600 mb-3">
+                        <i class="fab fa-java text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">Spring Boot & Java</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-red-600 h-2.5 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-orange-600 mb-3">
+                        <i class="fab fa-html5 text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">HTML5 & Tailwind CSS</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-orange-600 h-2.5 rounded-full" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-blue-400 mb-3">
+                        <i class="fas fa-database text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">MySQL</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-blue-400 h-2.5 rounded-full" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-blue-500 mb-3">
+                        <i class="fab fa-docker text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">Docker</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-blue-500 h-2.5 rounded-full" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 7 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-gray-800 mb-3">
+                        <i class="fab fa-github text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">Git & GitHub</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-gray-800 h-2.5 rounded-full" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 8 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <div class="text-purple-600 mb-3">
+                        <i class="fas fa-chart-line text-4xl"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg">Power BI</h3>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mt-3">
+                        <div class="bg-purple-600 h-2.5 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="h-48 bg-blue-100 flex items-center justify-center">
+                        <i class="fas fa-heart text-6xl text-red-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Dating CLI App</h3>
+                        <p class="text-gray-600 mb-4">
+                            A Python + SQL-based command-line application for managing dating profiles with CRUD operations.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">SQL</span>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">CLI</span>
+                        </div>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="h-48 bg-purple-100 flex items-center justify-center">
+                        <i class="fas fa-school text-6xl text-purple-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">School ICT Portal</h3>
+                        <p class="text-gray-600 mb-4">
+                            A Spring Boot web application for student records management and academic performance tracking.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full">Java</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Spring Boot</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">MySQL</span>
+                        </div>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://github.com/frastoneme" target="_blank" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition inline-flex items-center">
+                    <i class="fab fa-github mr-2"></i> View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Professional Experience</h2>
+            
+            <div class="space-y-8">
+                <!-- Experience 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">ICT Officer</h3>
+                        <span class="text-blue-600 font-medium">Jan 2024 – Present</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-700 mb-3">Equip Africa </h4>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Managing ICT infrastructure and systems</li>
+                        <li>Developing custom software solutions for routine processes</li>
+                        <li>Providing technical support to staff</li>
+                        <li>Conducting ICT training sessions for partners</li>
+                    </ul>
+                </div>
+                
+                <!-- Experience 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">ICT Officer</h3>
+                        <span class="text-blue-600 font-medium">Apr 2021 – Dec 2023</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-700 mb-3">Kenya Industrial Training Institute</h4>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Maintain and upgrad institute's network infrastructure</li>
+                        <li>Developed internal web applications for student management</li>
+                        <li>Provided ICT support to over 500 users</li>
+                        <li>Implemented data security measures and backups</li>
+                    </ul>
+                </div>
+                
+                <!-- Experience 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                        <h3 class="text-xl font-bold">ICT Technician</h3>
+                        <span class="text-blue-600 font-medium">Jan 2021 – Mar 2021</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-700 mb-3">Ministry of Investment,Trade and Industry</h4>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                        <li>Provided technical support for government offices</li>
+                        <li>Assisted in network setup and maintenance</li>
+                        <li>Troubleshoot hardware and software issues</li>
+                        <li>Documented ICT assets and inventory</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+            
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <p class="text-gray-600 mb-6">
+                        Feel free to reach out for collaborations, job opportunities, or just to say hello!
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mt-1 mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <a href="mailto:oigoeme@gmail.com" class="text-gray-600 hover:text-blue-600">oigoeme@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mt-1 mr-4">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Phone</h4>
+                                <a href="tel:+254725848843" class="text-gray-600 hover:text-blue-600">+254 725 848 843</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mt-1 mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Location</h4>
+                                <p class="text-gray-600">Nakuru, Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-medium mb-4">Connect with me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/frastoneme" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-blue-100 hover:text-blue-600">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/fraston-oigo-8455b012b/" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-blue-100 hover:text-blue-600">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://x.com/oigoeme" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-blue-100 hover:text-blue-600">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <form action="https://formsubmit.co/emeoigo2023@gmail.com" method="POST" class="space-y-4">
+
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name" name="name" required 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" name="subject" required 
+                                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="5" required 
+                                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                            Send Message
+                        </button>
+                    </form>
+                    
+                    <div id="form-success" class="hidden mt-4 p-4 bg-green-100 text-green-700 rounded-lg">
+                        Message sent successfully! I'll get back to you soon.
+                    </div>
+                    
+                    <div id="form-error" class="hidden mt-4 p-4 bg-red-100 text-red-700 rounded-lg">
+                        There was an error sending your message. Please try again or contact me directly via email.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; <span id="year"></span> Fraston Eme Oigo. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/frastoneme" target="_blank" class="hover:text-blue-400 transition">
+                        <i class="fab fa-github text-xl"></i>GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/fraston-oigo-8455b012b/" target="_blank" class="hover:text-blue-400 transition">
+                        <i class="fab fa-linkedin-in text-xl"></i>Linkedin
+                    </a>
+                    <a href="https://x.com/oigoeme" target="_blank" class="hover:text-blue-400 transition">
+                        <i class="fab fa-twitter text-xl"></i> X (formerly Twitter)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
